@@ -167,15 +167,3 @@ docker compose exec -T airflow python -m check_model --run-id RUN_ID
 MLflow run с параметрами и метриками:
 
 ![MLflow run](screenshots/mlflow_run.png)
-
-## Остановка
-
-```bash
-docker compose down
-```
-
-Контейнеры удаляются, данные PostgreSQL, история Airflow, снимки и модели MLflow остаются в volumes.
-
-## Лицензия данных
-
-Набор Olist распространяется по CC BY-NC-SA 4.0, условия — в `data/LICENSE.md`.
