@@ -31,7 +31,7 @@ extract → validate → prepare → train
 Нужны Git, Docker с Docker Compose v2 (Docker Desktop на macOS и Windows) и около 4 ГБ RAM для Docker.
 
 ```bash
-git clone YOUR_REPOSITORY_URL olist-homework
+git clone https://github.com/avarxx/olist-homework.git olist-homework
 cd olist-homework
 cp .env.example .env
 docker compose up -d --build
